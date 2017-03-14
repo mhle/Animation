@@ -14,6 +14,8 @@
 		7D41FFE71E78A589002F01E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D41FFE61E78A589002F01E1 /* Assets.xcassets */; };
 		7D41FFEA1E78A589002F01E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D41FFE81E78A589002F01E1 /* LaunchScreen.storyboard */; };
 		7D41FFF51E78A58A002F01E1 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FFF41E78A58A002F01E1 /* AnimationTests.swift */; };
+		7DBA9D501E78A84D00003DFA /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DBA9D4E1E78A84D00003DFA /* penguin.png */; };
+		7DBA9D511E78A84D00003DFA /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DBA9D4F1E78A84D00003DFA /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7D41FFF61E78A58A002F01E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D41FFFB1E78A58A002F01E1 /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D41FFFF1E78A58A002F01E1 /* AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUITests.swift; sourceTree = "<group>"; };
+		7DBA9D4E1E78A84D00003DFA /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		7DBA9D4F1E78A84D00003DFA /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		7D41FFDE1E78A589002F01E1 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				7DBA9D4D1E78A84D00003DFA /* Content */,
 				7D41FFDF1E78A589002F01E1 /* AppDelegate.swift */,
 				7D41FFE11E78A589002F01E1 /* ViewController.swift */,
 				7D41FFE31E78A589002F01E1 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				7D4100011E78A58A002F01E1 /* Info.plist */,
 			);
 			path = AnimationUITests;
+			sourceTree = "<group>";
+		};
+		7DBA9D4D1E78A84D00003DFA /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DBA9D4E1E78A84D00003DFA /* penguin.png */,
+				7DBA9D4F1E78A84D00003DFA /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DBA9D501E78A84D00003DFA /* penguin.png in Resources */,
 				7D41FFEA1E78A589002F01E1 /* LaunchScreen.storyboard in Resources */,
 				7D41FFE71E78A589002F01E1 /* Assets.xcassets in Resources */,
 				7D41FFE51E78A589002F01E1 /* Main.storyboard in Resources */,
+				7DBA9D511E78A84D00003DFA /* penguin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				7D4100061E78A58A002F01E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D4100071E78A58A002F01E1 /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				7D4100091E78A58A002F01E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D41000A1E78A58A002F01E1 /* Build configuration list for PBXNativeTarget "AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				7D41000C1E78A58A002F01E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D41FFD71E78A589002F01E1 /* Build configuration list for PBXProject "Animation" */ = {
 			isa = XCConfigurationList;
